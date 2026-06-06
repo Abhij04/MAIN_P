@@ -1,0 +1,122 @@
+[
+  {
+    "src": "/images/Building_image_1.jpeg",
+    "category": "exterior",
+    "title": "Building Front View",
+    "filename": "Building_image_1.jpeg"
+  },
+  {
+    "src": "/images/Building_image_2.jpeg",
+    "category": "exterior",
+    "title": "Building Entrance & Exterior",
+    "filename": "Building_image_2.jpeg"
+  },
+  {
+    "src": "/images/Dinner_area_image_1.jpeg",
+    "category": "facility",
+    "title": "Dining Area Layout",
+    "filename": "Dinner_area_image_1.jpeg"
+  },
+  {
+    "src": "/images/Dinner_area_image_2.jpeg",
+    "category": "facility",
+    "title": "Mess & Dining Facility",
+    "filename": "Dinner_area_image_2.jpeg"
+  },
+  {
+    "src": "/images/Dinner_area_image_3.jpeg",
+    "category": "facility",
+    "title": "Mess & Dining Facility",
+    "filename": "Dinner_area_image_3.jpeg"
+  },
+  {
+    "src": "/images/Dinner_area_image_4.jpeg",
+    "category": "facility",
+    "title": "Mess & Dining Facility",
+    "filename": "Dinner_area_image_4.jpeg"
+  },
+  {
+    "src": "/images/Dinner_area_image_5.jpeg",
+    "category": "facility",
+    "title": "Mess & Dining Facility",
+    "filename": "Dinner_area_image_5.jpeg"
+  },
+  {
+    "src": "/images/Room_image_1.jpeg",
+    "category": "room",
+    "title": "Single Occupancy Room",
+    "filename": "Room_image_1.jpeg"
+  },
+  {
+    "src": "/images/Room_image_2.jpeg",
+    "category": "room",
+    "title": "Premium Single Room",
+    "filename": "Room_image_2.jpeg"
+  },
+  {
+    "src": "/images/Room_image_3.jpeg",
+    "category": "room",
+    "title": "Double Sharing Room",
+    "filename": "Room_image_3.jpeg"
+  },
+  {
+    "src": "/images/Room_image_4.jpeg",
+    "category": "room",
+    "title": "Deluxe Double Room",
+    "filename": "Room_image_4.jpeg"
+  },
+  {
+    "src": "/images/Room_image_5.jpeg",
+    "category": "room",
+    "title": "Furnished AC Room",
+    "filename": "Room_image_5.jpeg"
+  },
+  {
+    "src": "/images/Room_image_6.jpeg",
+    "category": "room",
+    "title": "Study & Bedroom Setup",
+    "filename": "Room_image_6.jpeg"
+  },
+  {
+    "src": "/images/Room_image_7.jpeg",
+    "category": "room",
+    "title": "Co-living Room Interior",
+    "filename": "Room_image_7.jpeg"
+  },
+  {
+    "src": "/images/common_image_1.jpeg",
+    "category": "facility",
+    "title": "Common Lobby / Refrigerator Area",
+    "filename": "common_image_1.jpeg"
+  },
+  {
+    "src": "/images/labe_image_1.jpeg",
+    "category": "facility",
+    "title": "Study Lounge",
+    "filename": "labe_image_1.jpeg"
+  },
+  {
+    "src": "/images/labe_image_2.jpeg",
+    "category": "facility",
+    "title": "Storage Cupboards & Lockers",
+    "filename": "labe_image_2.jpeg"
+  },
+  {
+    "src": "/images/labe_image_3.jpeg",
+    "category": "facility",
+    "title": "Lobby Entrance",
+    "filename": "labe_image_3.jpeg"
+  },
+  {
+    "src": "/images/labe_image_4.jpeg",
+    "category": "facility",
+    "title": "Washing Machine Area",
+    "filename": "labe_image_4.jpeg"
+  },
+  {
+    "src": "/images/labe_image_5.jpeg",
+    "category": "facility",
+    "title": "Property Amenities",
+    "filename": "labe_image_5.jpeg"
+  }
+]

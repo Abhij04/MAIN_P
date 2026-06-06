@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+  
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --gold: #fbbf24;
+  --gold-hover: #f59e0b;
+  --success: #10b981;
+  --shadow-color: rgba(15, 23, 42, 0.05);
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0a0f1d;
+  --bg-secondary: #0f172a;
+  --bg-card: #152035;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border-color: #1e293b;
+  
+  --primary: #3b82f6;
+  --primary-hover: #60a5fa;
+  --gold: #fbbf24;
+  --gold-hover: #fde047;
+  --success: #34d399;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+@theme {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-border-color: var(--border-color);
+  
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-gold: var(--gold);
+  --color-gold-hover: var(--gold-hover);
+  --color-success: var(--success);
+  
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-heading);
+  
+  --shadow-premium: 0 10px 30px -10px var(--shadow-color);
+  --shadow-premium-lg: 0 20px 40px -15px var(--shadow-color);
+}
+
+/* Custom Base Styles */
+* {
+  transition: background-color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Lightbox specific animations */
+.lightbox-backdrop {
+  backdrop-filter: blur(10px);
+}
+
+/* Glassmorphism Classes */
+.glass-nav {
+  background-color: rgba(var(--bg-primary), 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Hide maps footer/terms if possible */
+.gmap_canvas iframe {
+  filter: grayscale(10%) contrast(100%);
+}
+
+[data-theme="dark"] .gmap_canvas iframe {
+  filter: invert(90%) hue-rotate(180deg) contrast(110%);
+}
