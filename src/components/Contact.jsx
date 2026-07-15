@@ -165,7 +165,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://maps.google.com/maps?q=Sadguru%20Krupa%20Apartments%20Loni%20Kalbhor&z=15"
+                href="https://maps.app.goo.gl/uRzHXsnnGm3EFy7P6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-3 px-4 rounded-xl bg-bg-primary border border-border-color text-text-primary font-bold text-xs flex flex-col items-center justify-center gap-1.5 hover:bg-bg-secondary active:scale-95 transition-all text-center"
@@ -187,7 +187,7 @@ export default function Contact() {
             <div className="w-full h-80 rounded-3xl overflow-hidden border border-border-color/50 shadow-premium relative bg-bg-primary gmap_canvas">
               <iframe
                 title="Google Maps Location for Sadguru Krupa PG"
-                src="https://maps.google.com/maps?q=Sadguru%20Krupa%20Apartments%20Loni%20Kalbhor&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=18.4875881,74.0226519&t=&z=17&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
